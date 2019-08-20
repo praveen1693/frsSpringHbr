@@ -1,0 +1,10 @@
+com\frs\springmvc\configuration\AppConfig.class
+com\frs\springmvc\controller\AppController.class
+com\frs\springmvc\dao\UserDAO.class
+com\frs\springmvc\configuration\AppInitializer.class
+com\frs\springmvc\service\UserServiceImpl.class
+com\frs\springmvc\configuration\HibernateConfiguration.class
+com\frs\springmvc\service\UserService.class
+com\frs\springmvc\dao\AbstractDao.class
+com\frs\springmvc\dao\UserDAOImpl.class
+com\frs\springmvc\model\User.class
