@@ -12,7 +12,7 @@ import javax.validation.constraints.Size;
 import org.hibernate.validator.constraints.NotEmpty;
 
 @Entity
-@Table(name="FLIGHT")
+@Table(name="Flight")
 public class Flight {
 	
 	@Id
