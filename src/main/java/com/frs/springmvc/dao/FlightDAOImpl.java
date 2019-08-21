@@ -28,7 +28,7 @@ public class FlightDAOImpl extends AbstractDao<Integer, Flight> implements Fligh
 
 	@Override
 	public void deleteFlightById(String fid) {
-		Query query = getSession().createSQLQuery("delete from Flight where flightid = :fid");
+		Query query = getSession().createSQLQuery("delete from flight where flightid = :fid");
 		query.setString("fid", fid);
 		query.executeUpdate();
 		
